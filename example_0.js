@@ -14,9 +14,12 @@ const likelion = [
 
 ];
 
+console.log(likelion[0].name);
+
 for (let i = 0 ; i < 3; i++) {
     const element = likelion[i]
     if(element.name === '이사자') {
-        document.writeln(element.dept);        
+        //document.writeln(element.dept);
+        console.log(element.dept)        
     }
 }
